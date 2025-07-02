@@ -38,7 +38,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         try {
             DiracUtils.getInstance(context);
             DozeUtils.onBootCompleted(context);
-            RefreshUtils.startService(context)
+            RefreshUtils.startService(context);
         } catch (Exception e) {
             Log.d(TAG, "Dirac is not present in system");
         }
