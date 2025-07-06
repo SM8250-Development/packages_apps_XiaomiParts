@@ -36,7 +36,8 @@
 	<!-- Charge Bypass -->
 	<activity
     	    android:name=".charge.ChargeActivity"
-            android:label="@string/charge_bypass_title">
+            android:label="@string/charge_bypass_title"
+	    android:exported="false">
     	    <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -220,7 +221,8 @@
 	<!-- ZRAM -->
         <activity
     	    android:name=".zram.ZramActivity"
-            android:label="@string/zram_size_title">
+            android:label="@string/zram_size_title"
+	    android:exported="false">
     	    <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
