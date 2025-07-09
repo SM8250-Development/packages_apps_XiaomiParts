@@ -18,6 +18,7 @@
     <!-- HBM control -->
     <bool name="HBM_enabled">false</bool>
     <string name="config_hbm_node"></string>
+    <string name="config_backlight_node"></string>
 
     <!-- Per App refresh rate control-->
     <bool name="pa_refresh_rate_enabled">false</bool>
