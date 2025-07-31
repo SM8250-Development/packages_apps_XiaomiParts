@@ -39,14 +39,14 @@ public class HBMModeSwitch implements OnPreferenceChangeListener {
         mContext = context;
     }
 
-    public static String getHBM() {
+    public String getHBM() {
         if (FileUtils.isFileWritable(HBM_NODE)) {
             return HBM_NODE;
         }
         return null;
     }
 
-    public static String getBACKLIGHT() {
+    public String getBACKLIGHT() {
         if (FileUtils.isFileWritable(BACKLIGHT_NODE)) {
             return BACKLIGHT_NODE;
         }
